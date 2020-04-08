@@ -11,24 +11,24 @@ if(one == 0) {
 	JOptionPane.showMessageDialog(null, "He takes control of the plane with the help of the plane manual.");
 	int twoone = JOptionPane.showOptionDialog(null, "He is flying fine but cant stop noticing that the fuel levels are going down. If he does not find anywhere to land you will die! Where should he land?", "Question 2-1", 0, JOptionPane.INFORMATION_MESSAGE, null, new String[] { "In a lake coming up", "In an open area coming up.", }, null);
 	if(twoone == 0){
-		//lake
+		JOptionPane.showMessageDialog(null, "He slowly steers the plane towards the water and are able to land safly.");
+		JOptionPane.showMessageDialog(null, "One day later the safty plane comes and everyone is safe.");
 	}
 	if(twoone == 1) {
-		//open
+		JOptionPane.showMessageDialog(null, "He slowly lowers the plane as if to land but hits the ground too hard and crashes.");
+		JOptionPane.showMessageDialog(null, "One day later the safty plane comes to fnd everyone injured and dead.");
 	}
 }
 if(one == 1) {
-	//jump
+	int para = JOptionPane.showOptionDialog(null, "He grabbed the parachute and is about to jump when he saw a little kid and his mom frighted. What should you do?", "Question 2-2", 0, JOptionPane.INFORMATION_MESSAGE, null, new String[] { "Give the little boy and his momthe parachute", "Jump", } , null);
 	
-	
-	
-	
-	//if() {
-		
-	//}
-	//if() {
-		
-	//}
+	if(para == 0) {
+		JOptionPane.showMessageDialog(null, "He gives the parachute to the boy and his mom.");
+		JOptionPane.showMessageDialog(null, "The boy and his mom jump out with the parachute and he goes down with the plane");
+	}
+	if(para == 1) {
+		JOptionPane.showMessageDialog(null, "He jumps out of the plane and lives but forever lives in sorro as he let the boy and his mom die");
+	}
 }
 
 	
